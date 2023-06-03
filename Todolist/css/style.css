@@ -1,0 +1,88 @@
+/* Reset default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main-section {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.add-section {
+  margin-bottom: 20px;
+}
+
+.add-section form {
+  display: flex;
+  align-items: center;
+}
+
+.add-section input[type="text"] {
+  flex-grow: 1;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.add-section button {
+  height: 40px;
+  padding: 0 15px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-section button span {
+  margin-left: 5px;
+}
+
+.show-todo-section .todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.show-todo-section .todo-item:last-child {
+  border-bottom: none;
+}
+
+.show-todo-section .remove-to-do {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.show-todo-section .check-box {
+  margin-right: 10px;
+}
+
+.show-todo-section h2 {
+  margin-bottom: 5px;
+}
+
+.show-todo-section .checked {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.show-todo-section small {
+  color: #999;
+  font-size: 12px;
+}
